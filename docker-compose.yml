@@ -13,6 +13,9 @@ services:
       ONLINE_MODE: "TRUE"
       MOTD: "Servidor Minecraft Fabric via Docker + Playit"
       OPS: "pkziinn10"
+      LEVEL_TYPE: "minecraft:amplified"
+      DIFFICULTY: "hard"
+      SPAWN_PROTECTION: "0"
     volumes:
       - ./data:/data
       - ./mods:/data/mods
